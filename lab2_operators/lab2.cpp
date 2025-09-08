@@ -82,6 +82,31 @@ int main(){
 
     cout<<"\n----- EXERCISE -----"<<endl;
 
+    int a, b;
+    cout << "Enter the first number (a): ";
+    cin >> a;
+    cout << "Enter the second number (b): ";
+    cin >> b;
 
+    cout << "\nArithmetic Operations:" << endl;
+    cout << "a + b = " << (a + b) << endl;
+    cout << "a - b = " << (a - b) << endl;
+    cout << "a * b = " << (a * b) << endl;
+    cout << "a / b = " << (a / b) << endl;
+    cout << "a % b = " << (a % b) << endl;
+
+    a += 10;
+    b -= 5;
+    cout<<"\nAfter assignment operations: "<<endl;
+    cout<<"a = "<< a <<endl;
+    cout<<"b = "<< b <<endl;
+
+    cout << "\nBoolean Operations:" << endl;
+    cout << "Is a greater than b? " << (a > b ? "true" : "false") << endl;
+    cout << "Is a equal to b? " << (a == b ? "true" : "false") << endl;
+    cout << "Is a not equal to b? " << (a != b ? "true" : "false") << endl;
+    cout << "Are both a and b positive? " << ((a > 0 && b > 0) ? "true" : "false") << endl;
+    cout << "Is either a or b negative? " << ((a < 0 || b < 0) ? "true" : "false") << endl;
+    cout << "Is a not greater than b? " << (!(a > b) ? "true" : "false") << endl;
     return 0;
 }
