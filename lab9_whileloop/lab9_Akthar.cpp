@@ -135,6 +135,27 @@ int main(){
     cout<<"The total sum of numbers = "<<sum_all<<endl;
 
     cout<<"\n ----- EXERCISE -----"<<endl;  
+    int num2 = 0;
+    int sum_num = 0;
+
+    do{
+        cout<<"Enter a number (0 to stop): ";
+        cin>>num2;
+
+        if(num2 == 0){
+            break;
+        }
+        int temp = abs(num2); 
+        int digit_sum = 0;
+        while(temp > 0){
+            digit_sum += temp % 10;
+            temp /= 10;
+        }
+        cout<<"Sum of digits for "<<num2<<" is "<<digit_sum<<endl;
+        sum_num += digit_sum;
+    }
+    while(num2 != 0);
+    cout<<"The total sum is: "<<sum_num<<endl;
 
     return 0;
 }

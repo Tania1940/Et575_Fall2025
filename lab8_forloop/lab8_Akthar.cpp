@@ -62,8 +62,6 @@ int main(){
     // print result
     cout<<"The total sum of negative numbers = "<<sum_negative<<endl;
 
-
-
     cout<<"\n----- EXERCISE 1 -----"<<endl;
        int count_multiple2 = 0;
 
@@ -76,7 +74,6 @@ int main(){
     cout<<endl;
     cout<<"There are "<<count_multiple2<<" numbers that are multiple of 2"<<endl;
 
-
     cout<<"\n----- EXERCISE 2 -----"<<endl;
     int user_input = 0;
     cout<<"Enter an initial value ";
@@ -85,8 +82,6 @@ int main(){
         cout<<t<<"\t";
     }
     cout<<endl;
-
-
 
     return 0;
 }
