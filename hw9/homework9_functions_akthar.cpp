@@ -20,7 +20,7 @@ int arraysize(){
 
 void randPopulate(int arr[], int sizearray){
     for(int i = 0; i < sizearray; i++){
-        arr[i] = rand() % 21 + 10;
+        arr[i] = (rand() % 18) + 12; 
     }
 }
 
